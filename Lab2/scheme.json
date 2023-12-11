@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "timetable": {
+        "type": "object",
+        "properties": {
+          "sessions": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "day": {
+                    "type": "string",
+                    "enum" : ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "classroom": {
+                    "type": "integer"
+                  },
+                  "instructor": {
+                    "type": "string"
+                  },
+                  "start": {
+                    "type": "string",
+                    "pattern": "^(?:[01]\\d|2[0123]):(?:[012345]\\d):(?:[012345]\\d)$"
+                  },
+                  "end": {
+                    "type": "string",
+                    "pattern": "^(?:[01]\\d|2[0123]):(?:[012345]\\d):(?:[012345]\\d)$"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum" : ["lecture", "seminar"]
+                  }
+                },
+                "required": [
+                  "day",
+                  "subject",
+                  "classroom",
+                  "instructor",
+                  "start",
+                  "end",
+                  "type"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "sessions"
+        ]
+      }
+    },
+    "required": [
+      "timetable"
+    ]
+  }

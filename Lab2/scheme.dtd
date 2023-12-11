@@ -1,0 +1,9 @@
+<!ELEMENT timetable (session*)>
+<!ELEMENT session (subject,classroom,instructor,start,end,type)>
+<!ATTLIST session day (mon|tue|wed|thu|fri|sat|sun) #REQUIRED>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT classroom (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ELEMENT type (#PCDATA)>

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-totext",
+      "appliesTo": "totext.xslt",
+      "type": "launch"
+    }
+  ]
+}

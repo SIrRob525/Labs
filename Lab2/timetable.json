@@ -1,0 +1,123 @@
+{
+    "timetable": {
+      "sessions": [
+        {
+          "day": "mon",
+          "subject": "Микроэкономика-2",
+          "classroom": 341,
+          "instructor": "А. Кальчевский",
+          "start": "12:30:00",
+          "end": "13:50:00",
+          "type": "seminar"
+        },
+        {
+          "day": "tue",
+          "subject": "Макроэкономика-1",
+          "classroom": "R503",
+          "instructor": "В. Черноокий",
+          "start": "13:00:00",
+          "end": "14:20:00",
+          "type": "lecture"
+        },
+        {
+          "day": "tue",
+          "subject": "Машинное обучение",
+          "classroom": "R205",
+          "instructor": "М. Гущин",
+          "start": "16:20:00",
+          "end": "17:40:00",
+          "type": "lecture"
+        },
+        {
+          "day": "wed",
+          "subject": "Математический анализ-2",
+          "classroom": "R503",
+          "instructor": "С. Шапошников",
+          "start": "09:30:00",
+          "end": "10:50:00",
+          "type": "lecture"
+        },
+        {
+          "day": "wed",
+          "subject": "Математический анализ-2",
+          "classroom": "G119",
+          "instructor": "Т. Красовицкий",
+          "start": "13:00:00",
+          "end": "14:20:00",
+          "type": "seminar"
+        },
+        {
+          "day": "wed",
+          "subject": "Макроэкономика-1",
+          "classroom": "R504",
+          "instructor": "В. Черноокий",
+          "start": "11:10:00",
+          "end": "12:30:00",
+          "type": "lecture"
+        },
+        {
+          "day": "wed",
+          "subject": "Машинное обучение",
+          "classroom": "R506",
+          "instructor": "В. Бочарников",
+          "start": "14:40:00",
+          "end": "16:00:00",
+          "type": "lecture"
+        },
+        {
+          "day": "fri",
+          "subject": "Математический анализ-2",
+          "classroom": "R503",
+          "instructor": "С. Шапошников",
+          "start": "09:30:00",
+          "end": "10:50:00",
+          "type": "lecture"
+        },
+        {
+          "day": "fri",
+          "subject": "Микроэкономика-2",
+          "classroom": "R504",
+          "instructor": "О. Баранов",
+          "start": "11:10:00",
+          "end": "12:30:00",
+          "type": "lecture"
+        },
+        {
+          "day": "fri",
+          "subject": "Технологии анализа данных в сети Интернет",
+          "classroom": "online",
+          "instructor": "В. Ланин",
+          "start": "13:00:00",
+          "end": "14:20:00",
+          "type": "lecture"
+        },
+        {
+          "day": "fri",
+          "subject": "Технологии анализа данных в сети Интернет",
+          "classroom": "online",
+          "instructor": "В. Ланин",
+          "start": "14:40:00",
+          "end": "16:00:00",
+          "type": "seminar"
+        },
+        {
+          "day": "fri",
+          "subject": "Микроэкономика-2",
+          "classroom": "S224",
+          "instructor": "А. Кальчевский",
+          "start": "16:20:00",
+          "end": "17:40:00",
+          "type": "seminar"
+        },
+        {
+          "day": "sat",
+          "subject": "Машинное обучение",
+          "classroom": "R307",
+          "instructor": "С. Корпачев",
+          "start": "14:40:00",
+          "end": "16:00:00",
+          "type": "seminar"
+        }
+      ]
+    }
+  }

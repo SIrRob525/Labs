@@ -1,0 +1,38 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="Session">
+    <xs:all>
+        <xs:element name="subject" type="xs:string"/>
+        <xs:element name="classroom" type="xs:string"/>
+        <xs:element name="instructor" type="xs:string"/>
+        <xs:element name="start" type="xs:time"/>
+        <xs:element name="end" type="xs:time"/>
+        <xs:element name="type">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="lecture"/>
+                    <xs:enumeration value="seminar"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+    </xs:all>
+    <xs:attribute name="day" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="mon|tue|wed|thu|fri|sat|sun"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+</xs:complexType>
+
+
+<xs:element name="timetable">
+    <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+            <xs:element name="session" type="Session"/>
+        </xs:choice>
+    </xs:complexType>   
+</xs:element>
+
+
+</xs:schema>

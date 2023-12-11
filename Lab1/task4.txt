@@ -1,0 +1,12 @@
+Хорошие пароли:
+abcFDnjdsDhdkjha3#29q
+KLJklD^&&*6D78DS@+
+1GGhjfhj1d#
+
+Плохие пароли:
+abc
+password
+Password123
+Qwerty***
+MYPASSWORD!
+123$$$ONme
