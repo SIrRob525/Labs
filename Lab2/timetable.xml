@@ -6,7 +6,7 @@
 <timetable 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation=
-"C:\Users\ibori\Desktop\Homeworks\sem3\internet_data_analysys\Lab2\scheme.xsd">
+"C:\Users\ibori\Desktop\Homeworks\sem3\internet_data_analysys\Labs\Lab2\scheme.xsd">
 
     <session day="mon">
         <subject>Микроэкономика-2</subject>
